@@ -176,8 +176,8 @@ $.fn.S3Uploader = (options) ->
     setUploadForm()
     this
 
-  #@path = (new_path) ->
-   # settings.path = new_path
+  @path = (new_path) ->
+    settings.path = new_path
 
   @additional_data = (new_data) ->
     settings.additional_data = new_data
